@@ -12,6 +12,11 @@
       rgba($color-primary-dark, 0.8)
     ),
     url(../../img/nat-4.jpg);
+  margin-top: -11.2rem;
   background-size: cover;
-  clip-path: polygon(0 25%, 100% 0, 100% 75%, 0 100%);
+  // clip-path: polygon(0 25%, 100% 0, 100% 75%, 0 100%);
+  transform: skewY(-7deg);
+  & > * {
+    transform: skewY(7deg);
+  }
 }
