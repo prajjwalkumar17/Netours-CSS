@@ -328,6 +328,7 @@ body {
       font-weight: 100; }
 
 /** @format */
+/** @format */
 .about-section {
   background-color: #f7f7f7;
   padding: 25rem 0;
@@ -346,6 +347,10 @@ body {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem 0;
   margin-top: -11rem; }
+
+.section-stories {
+  background-color: #f7f7f7;
+  padding: 15rem 0 15rem 0; }
 
 /** @format */
 .header {
